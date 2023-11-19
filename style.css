@@ -123,13 +123,13 @@ body {
   /* margin-top: 300px; */
   background:rgba(255, 255, 255, 0.966);
   border-radius: 10px;
-  max-width: 430px;
+  max-width: 540px;
   
  
 }
 
 .results ul {margin: 0; padding: 0;
-  width: 430px;
+  width: 530px;
    }
 .results ul li {
   list-style: none;
@@ -138,7 +138,7 @@ body {
   display: none;
   padding: 8px 12px;
   transition: all .5s linear;
-  max-width: 410px
+  max-width: 500px
 }
 
 .show .results ul li {
@@ -321,7 +321,6 @@ img {
 }
 
 
-}
 @media screen and (max-width: 1200px) {
   .tohide
   {display: none;
