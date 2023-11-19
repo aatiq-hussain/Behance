@@ -71,7 +71,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start; 
-  width: 240px;
+  width: 440px;
 }
 
 #share{
@@ -320,7 +320,12 @@ img {
   margin-left: 14px;
 }
 
-
+@media screen and (max-width: 1800px) {
+     .straight{
+   width: 200px;
+    
+  }
+}
 @media screen and (max-width: 1200px) {
   .tohide
   {display: none;
