@@ -320,11 +320,7 @@ img {
   margin-left: 14px;
 }
 
-@media screen and (max-width: 1800px) {
-     .straight{
-   width: 350px;
-    
-  }
+
 }
 @media screen and (max-width: 1200px) {
   .tohide
