@@ -14,4 +14,5 @@ To know in depth about this project,
 ### For Documentation  
 Click here for the entire [documentation](https://docs.google.com/document/d/1el6EiWbpxKhLNGZE5pcwyWYJljzSJg60XzdEs0QmVJU/edit?usp=sharing).
 
-
+### For Hosted Demo View
+Click here for the entire [Demo](https://docs.google.com/document/d/1el6EiWbpxKhLNGZE5pcwyWYJljzSJg60XzdEs0QmVJU/edit?usp=sharing).
