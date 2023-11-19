@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Behance</title>
+  <link rel="icon" href="d/favicon.ico">
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet" />
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- navbar comes here -->
+  <nav class="navbar">
+   <a href="https://www.behance.net/aatiqhussain007" target="_blank" style="text-decoration: none; color:rgb(0, 0, 0);font-size: 17px;"> <span class="company-name">Behance</span></a>
+    
+   <div class="tohide">
+     <button id="nav-side" style="padding-left: 30px; background-color: transparent;"><b><u>For you</u></b></button>
+     <button id="nav-side" style="padding-left: 30px;background-color: transparent;">Discover</button>
+     <button id="nav-side" style="padding-left: 20px;background-color: transparent;">Assets</button>
+     <button id="nav-side" style="padding-left: 20px;background-color: transparent;">Job</button>
+     <button id="nav-side" style="padding-left: 20px;background-color: transparent;">Hire</button>
+    </div>
+    
+    <div id="search-container" class="wrap" style=" padding-left: 20px;">
+     <div class="straight">
+      <input type="search" name="search"  id="search-input"   placeholder="  Search name here.." autocomplete="chrome-off"/>
+       <div class="results">
+        <ul>
+        </ul>
+       </div>
+     </div>
+     <button id="search" style=" font-size: 10px;">Search</button>
+    </div>
+    
+    <div class="tohide2">
+     <button id="share" style=" font-size: 10px;background-color: transparent; padding-right: 20px;">Share your work</button>
+     <img src="bell.png"  style=" width:20px; height:20px;">
+     <img src="email.png"  style=" width:20px; height:20px;">
+     <a href="https://www.behance.net/aatiqhussain007" target="_blank"><img src="aatiq.png"  style=" width:21px; height:21px; border-radius:50%;margin-top: 8px;"></a>
+    </div>
+    <!-- <a href="https://lib-alpha.vercel.app/" class="home-link">Go back</a> -->
+  </nav>
+
+ <!-- cards section treding topics comes here -->
+ <div class="cars">
+   
+   <div class="car">
+     <img src="d/navd/Gd.jpg"  style=" width:40px; height:40px; border-radius:10%;">
+     <div class="car-topic">Graphic Design</div>
+   </div>
+   
+   <div class="car">
+      <img src="d/navd/uxui.jpg"  style=" width:40px; height:40px; border-radius:10%;">
+      <div class="car-topic">UX/UI Design</div>
+   </div>
+   
+   <div class="car">
+      <img src="d/navd/bi.jpg"  style=" width:40px; height:40px; border-radius:10%;">
+      <div class="car-topic">Brand Identity</div>
+    </div>
+   <div class="car">
+      <img src="d/navd/pg.jpg"  style=" width:40px; height:40px; border-radius:10%;">
+      <div class="car-topic">Photography</div>
+    </div>
+  
+   <div class="car">
+      <img src="d/navd/ve.jpg"  style=" width:45px; height:40px; border-radius:10%;">
+      <div class="car-topic">Video Editing</div>
+   </div>
+ </div>
+  
+ <div class="wrapper">
+   <!-- Filter and Sorting comes here-->
+   <div id="buttons">
+   
+   <button class="button-value" onclick="filterPost('all')">All</button>
+   <button class="button-value" onclick="filterPost('Design')">
+     <p>Design</p>
+   </button>
+   <button class="button-value" onclick="filterPost('CaseStudy')">
+     CaseStudy
+   </button>
+   <button class="button-value" onclick="filterPost('WebApp')">
+     WebApp
+   </button>
+   <button class="button-value" onclick="filterPost('MobileApp')">
+     MobileApp
+   </button>
+   
+   <div class="dropdown">
+     <button class="dropbtn">Sort By Categories</button>
+      <div class="dropdown-content">
+       <a href="#" onclick="filterPost('Design')" >Design</a>
+       <a href="#" onclick="filterPost('WebApp')">WebApp</a>
+       <a href="#"  onclick="filterPost('CaseStudy')">CaseStudy</a>
+       <a href="#"  onclick="filterPost('MobileApp')">MobileApp</a>
+      </div>
+   </div>
+   </div>
+   <!-- Posts grid comes here-->
+   <div id="Posts">
+  
+   <div class="Pcard CaseStudy" >
+     <div class="image-container">
+     <a href="https://www.behance.net/gallery/184454885/UX-case-study-Lighthouse-Learning-platform" target="_blank"><img src="d/d15.png"></a>
+     </div>
+   
+     <div class="container">
+     <div class="ca">
+     <img src="aatiq.png"  style=" width:25px; height:25px; border-radius:50%;">
+     <h5 class="Pcard-name">UX CASE STUDY LIGHTHOUSE</h5>
+     </div>
+   
+     <div class="ca" style=" margin-top: 3px;">
+     <img src="eye.png"  style=" width:18px; height:18px; margin-top: 1px;padding-right: 2px;">
+     <h5>49 Views</h5>
+     <img src="like.png" class="likeimg" >
+     <h6 style="color: rgb(65, 125, 255);margin-top: 1px; ">44k</h6>
+     </div>
+     </div>
+   </div>
+  
+   <div class="Pcard WebApp">
+   
+     <div class="image-container">
+     <a href="https://www.behance.net/gallery/183412141/BIM-and-Engineering-Solutions-Website-ReCaseStudy" target="_blank"><img src="d/d14.png"></a></div>
+   
+     <div class="container">
+     <div class="ca">
+     <img src="aatiq.png"  style=" width:25px; height:25px; border-radius:50%;">
+     <h5 class="Pcard-name">BIM AND ENG | WEBSITE-REDESIGN</h5>
+     </div>
+            
+     <div class="ca" style=" margin-top: 3px;">
+     <img src="eye.png"  style=" width:18px; height:18px; margin-top: 1px;padding-right: 2px;">
+     <h5>934 Views</h5>
+     <img src="like.png" class="likeimg">
+     <h6 style="color: rgb(65, 125, 255);margin-top: 1px; ">94k</h6>
+     </div>
+     </div>
+   </div>
+   
+   <div class="Pcard Design">
+   
+     <div class="image-container">
+     <a href="https://www.behance.net/gallery/180056449/LUMOS-HIKARI-NO-MATSURI-Graphic-CaseStudy" target="_blank"> <img src="d/d13.png"></a>
+     </div>
+  
+     <div class="container">
+     <div class="ca">
+     <img src="aatiq.png"  style=" width:25px; height:25px; border-radius:50%;">
+     <h5 class="Pcard-name">LUMOS:HnM GRAPHIC CASESTUDY</h5>
+     </div>
+  
+     <div class="ca" style=" margin-top: 3px;">
+     <img src="eye.png"  style=" width:18px; height:18px; margin-top: 1px;padding-right: 2px;">
+     <h5>149 Views</h5>
+     <img src="like.png" class="likeimg">
+     <h6 style="color: rgb(65, 125, 255);margin-top: 1px; ">64k</h6>
+     </div>
+     </div>
+   </div>
+  
+   <div class="Pcard WebApp">
+   
+     <div class="image-container">
+     <a href="https://www.behance.net/gallery/183400857/Indian-Infra-Website-ReCaseStudy" target="_blank"> <img src="d/d12.png"></a>
+     </div>
+   
+     <div class="container">
+     <div class="ca">
+     <img src="aatiq.png"  style=" width:25px; height:25px; border-radius:50%;">
+     <h5 class="Pcard-name">INDIAN INFRA | WEBSITE | REDESIGN</h5>
+     </div>
+  
+     <div class="ca" style=" margin-top: 3px;">
+     <img src="eye.png"  style=" width:18px; height:18px; margin-top: 1px;padding-right: 2px;">
+     <h5>249 Views</h5>
+     <img src="like.png" class="likeimg">
+     <h6 style="color: rgb(65, 125, 255);margin-top: 1px; ">72k</h6>
+     </div>
+     </div>
+   </div>
+  
+   <div class="Pcard Design">
+   
+     <div class="image-container">
+     <a href="https://www.behance.net/gallery/176242735/Portfolio-DZYN" target="_blank"><img src="d/d11.png"></a> 
+     </div>
+   
+     <div class="container">
+     <div class="ca">
+     <img src="aatiq.png"  style=" width:25px; height:25px; border-radius:50%;">
+     <h5 class="Pcard-name">PORTFOLIO DZYN</h5>
+     </div>
+   
+     <div class="ca" style=" margin-top: 3px;">
+     <img src="eye.png"  style=" width:18px; height:18px; margin-top: 1px;padding-right: 2px;">
+     <h5>360 Views</h5>
+     <img src="like.png" class="likeimg">
+     <h6 style="color: rgb(65, 125, 255);margin-top: 1px; ">31k</h6>
+     </div>
+     </div>
+   </div>
+          
+   <div class="Pcard CaseStudy">
+   
+     <div class="image-container">
+     <a href="https://www.behance.net/gallery/177124651/Mobile-Search-CaseStudy" target="_blank"> 
+     <img src="d/d10.png"></a>
+      </div>
+   
+     <div class="container">
+     <div class="ca">
+     <img src="aatiq.png"  style=" width:25px; height:25px; border-radius:50%;">
+     <h5 class="Pcard-name">MOBILE SEARCH DESIGN</h5>
+     </div>
+     
+     <div class="ca" style=" margin-top: 3px;">
+     <img src="eye.png"  style=" width:18px; height:18px; margin-top: 1px;padding-right: 2px;">
+     <h5>311 Views</h5>
+     <img src="like.png" class="likeimg">
+     <h6 style="color: rgb(65, 125, 255);margin-top: 1px; ">20k</h6>
+     </div>
+     </div>
+   </div>
+  
+   <div class="Pcard CaseStudy">
+   
+     <div class="image-container">
+     <a href="https://www.behance.net/gallery/172285757/Case-Study-SAVOR-Food-delivery-App-UxUi" target="_blank">
+      <img src="d/d9.png"></a>
+     </div>
+   
+     <div class="container">
+     <div class="ca">
+     <img src="aatiq.png"  style=" width:25px; height:25px; border-radius:50%;">
+     <h5 class="Pcard-name">CASESTUDY: SAVOR-FOOD DELIVERY APP </h5>
+     </div>
+        
+     <div class="ca" style=" margin-top: 3px;">
+     <img src="eye.png"  style=" width:18px; height:18px; margin-top: 1px;padding-right: 2px;">
+     <h5>276 Views</h5>
+     <img src="like.png" class="likeimg">
+     <h6 style="color: rgb(65, 125, 255);margin-top: 1px; ">22k</h6>
+     </div>
+     </div>
+   </div>
+  
+   <div class="Pcard Design">
+   
+     <div class="image-container">
+     <img src="d/d8.png">
+     </div>
+   
+     <div class="container">
+     <div class="ca">
+     <img src="aatiq.png"  style=" width:25px; height:25px; border-radius:50%;">
+     <h5 class="Pcard-name">FITGYM</h5>
+     </div>
+        
+     <div class="ca" style=" margin-top: 3px;">
+     <img src="eye.png"  style=" width:18px; height:18px; margin-top: 1px;padding-right: 2px;">
+     <h5>743 Views</h5>
+     <img src="like.png" class="likeimg">
+     <h6 style="color: rgb(65, 125, 255);margin-top: 1px; ">74k</h6>
+     </div>
+     </div>
+   </div>
+    
+   <div class="Pcard WebApp">
+     
+     <div class="image-container">
+     <img src="d/d7.png">
+     </div>
+     
+     <div class="container">
+     <div class="ca">
+     <img src="aatiq.png"  style=" width:25px; height:25px; border-radius:50%;">
+     <h5 class="Pcard-name">AI-PROFESSOR</h5>
+     </div>
+     
+     <div class="ca" style=" margin-top: 3px;">
+     <img src="eye.png"  style=" width:18px; height:18px; margin-top: 1px;padding-right: 2px;">
+     <h5>147 Views</h5>
+     <img src="like.png" class="likeimg">
+     <h6 style="color: rgb(65, 125, 255);margin-top: 1px; ">13k</h6>
+     </div>
+     </div>
+   </div>
+
+    
+   <div class="Pcard Design">
+     
+     <div class="image-container">
+     <img src="d/d6.png">
+     </div>
+      
+     <div class="container">
+     <div class="ca">
+     <img src="aatiq.png"  style=" width:25px; height:25px; border-radius:50%;">
+     <h5 class="Pcard-name">MINIMILISTIC D E S I G N</h5>
+     </div>
+     
+     <div class="ca" style=" margin-top: 3px;">
+     <img src="eye.png"  style=" width:18px; height:18px; margin-top: 1px;padding-right: 2px;">
+     <h5>159 Views</h5>
+     <img src="like.png" class="likeimg">
+     <h6 style="color: rgb(65, 125, 255);margin-top: 1px; ">92k</h6>
+     </div>
+     </div>
+   </div>
+
+   <div class="Pcard MobileApp">
+     
+     <div class="image-container">
+     <img src="d/d5.png">
+     </div>
+     
+     <div class="container">
+     <div class="ca">
+     <img src="aatiq.png"  style=" width:25px; height:25px; border-radius:50%;">
+     <h5 class="Pcard-name">TRADE APP</h5>
+     </div>
+     
+     <div class="ca" style=" margin-top: 3px;">
+     <img src="eye.png"  style=" width:18px; height:18px; margin-top: 1px;padding-right: 2px;">
+     <h5>265 Views</h5>
+     <img src="like.png" class="likeimg">
+     <h6 style="color: rgb(65, 125, 255);margin-top: 1px; ">84k</h6>
+     </div>
+     </div>
+   </div>
+
+   <div class="Pcard WebApp">
+     <div class="image-container">
+     <img src="d/d4.png">
+     </div>
+    
+     <div class="container">
+     <div class="ca">
+     <img src="aatiq.png"  style=" width:25px; height:25px; border-radius:50%;">
+     <h5 class="Pcard-name">MECHIMED TECHNOLOGIES</h5>
+     </div>
+        
+     <div class="ca" style=" margin-top: 3px;">
+     <img src="eye.png"  style=" width:18px; height:18px; margin-top: 1px;padding-right: 2px;">
+     <h5>843 Views</h5>
+     <img src="like.png" class="likeimg">
+     <h6 style="color: rgb(65, 125, 255);margin-top: 1px; ">64k</h6>
+     </div>
+     </div>
+   </div>
+
+   <div class="Pcard WebApp">
+     
+     <div class="image-container">
+     <img src="d/d3.png">
+     </div>
+    
+     <div class="container">
+     <div class="ca">
+     <img src="aatiq.png"  style=" width:25px; height:25px; border-radius:50%;">
+     <h5 class="Pcard-name">TEDx WOMEN CIT</h5>
+     </div>
+        
+     <div class="ca" style=" margin-top: 3px;">
+     <img src="eye.png"  style=" width:18px; height:18px; margin-top: 1px;padding-right: 2px;">
+     <h5>949 Views</h5>
+     <img src="like.png" class="likeimg">
+     <h6 style="color: rgb(65, 125, 255);margin-top: 1px; ">24k</h6>
+     </div>
+     </div>
+   </div>
+
+   <div class="Pcard Design">
+     <div class="image-container">
+     <img src="d/d2.png">
+     </div>
+        
+     <div class="container">
+     <div class="ca">
+     <img src="aatiq.png"  style=" width:25px; height:25px; border-radius:50%;">
+     <h5 class="Pcard-name">L O K I</h5>
+     </div>
+     
+     <div class="ca" style=" margin-top: 3px;">
+     <img src="eye.png"  style=" width:18px; height:18px; margin-top: 1px;padding-right: 2px;">
+     <h5>94 Views</h5>
+     <img src="like.png" class="likeimg">
+     <h6 style="color: rgb(65, 125, 255);margin-top: 1px; ">4k</h6>
+     </div>
+     </div>
+   </div>
+   
+   <div class="Pcard Design">
+     
+     <div class="image-container">
+     <img src="d/d1.png">
+     </div>
+     
+     <div class="container">
+     <div class="ca">
+     <img src="aatiq.png"  style=" width:25px; height:25px; border-radius:50%;">
+     <h5 class="Pcard-name">PROJECT DESIGN</h5>
+     </div>
+     
+     <div class="ca" style=" margin-top: 3px;">
+     <img src="eye.png"  style=" width:18px; height:18px; margin-top: 1px;padding-right: 2px;">
+     <h5>100 Views</h5>
+     <img src="like.png" class="likeimg">
+     <h6 style="color: rgb(65, 125, 255);margin-top: 1px; ">14k</h6>
+     </div>
+     </div>
+   </div>
+   </div>
+ </div>
+
+ <!-- Script -->
+  <script src="script.js"></script>
+</body>
+
+</html>
